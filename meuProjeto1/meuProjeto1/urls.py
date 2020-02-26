@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import home
-from .views import clientes, cliente_num, cliente_nome
+from clientes.views import clientes, cliente_num, cliente_nome
 
 
 urlpatterns = [
